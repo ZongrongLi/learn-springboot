@@ -9,7 +9,7 @@ import com.config.srpingConfig;
 @SpringBootTest
 class javaConfigApplicationTests {
 	@Test
-	void teset02() {
+	void test02() {
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(
 				srpingConfig.class);
 		student s1 = (student) ctx.getBean("createStudent");
@@ -27,7 +27,7 @@ class javaConfigApplicationTests {
 // 2. springconfig类
 // 包扫描@ComponentScan(basePackages =  "com.example.javaConfig")
 	@Test
-	void teset03() {
+	void test03() {
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(
 					srpingConfig.class);
 		tiger s1 = (tiger) ctx.getBean("tiger");
