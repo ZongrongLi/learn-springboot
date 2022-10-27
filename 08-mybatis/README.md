@@ -21,3 +21,28 @@ Configure database connection information.
 7.创建Controller对象，访问Service。  
 8.写application.properties.文件  
 配置数据库的连接信总。  
+
+
+configure resource:
+```xml
+<resources>
+	<resource>
+		<directory>src/main/java</directory>
+		<includes>
+			<include>**/*.xml</include>
+			<include>**/*.yml</include>
+			<include>**/*.properties</include>
+		</includes>
+		<filtering>false</filtering>
+	</resource>
+		<resource>
+			<directory>src/main/resources</directory>
+			<includes>
+			<include>**/*.yml</include>
+			<include>**/*.properties</include>
+			<include>**/*.xml</include>
+			</includes>
+			<filtering>false</filtering>
+		</resource>
+	</resources>
+```
