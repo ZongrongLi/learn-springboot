@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>09-mybatis-mapper-scan</artifactId>
+	<artifactId>10-mybatis-mapper-xml-split</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mybatis</name>
 	<description>Demo project for Spring Boot</description>
